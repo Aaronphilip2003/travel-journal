@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+.header-bar{
+  position: relative;
+  width: 80%;
+  height: 55px;
+  left: 10%;
+  top: 0px;
+  align-items: center;
+
+  background: #F55A5A;
+}
+
+.travJourn{
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.075em;
+
+    color: #FFFFFF;
+    padding-top: 0.8rem;
+}
+
+.images{
+  flex-direction: column;
+  width: 125px;
+  height: 170px;
+  left: 40px;
+  border-radius: 10%;
+  padding-top: -1rem;
+}
+
+.section{
+  flex-direction: column;
+  position: relative;
+  left:0;
+  align-self: left;
+  width:25%;
+}
+
+.data-cards{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100%;
+  line-height: 120%; 
+
+  flex-direction: column;
+  width:100%;
+  margin-left: 100%;
+
+  color: #2B283A;
+}
